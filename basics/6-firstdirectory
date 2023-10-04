@@ -1,2 +1,2 @@
-#!/bin/bash
-# Specify the directory path
+mkdir -p /tmp/my_first_directory
+file /tmp/my_first_directoryh
