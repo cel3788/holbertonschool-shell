@@ -1,4 +1,3 @@
 #!/bin/bash
-
-touch /path/to/holbertonschool-shell/permissions/hello
+touch hello
 
