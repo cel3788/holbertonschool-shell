@@ -1,2 +1,2 @@
 #!/bin/bash
-+x script_name.sh
+chmod 111 hello
