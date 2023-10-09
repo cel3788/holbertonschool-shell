@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 755 dossier1 dossier2 dossier3
+chmod -R 755 ./
