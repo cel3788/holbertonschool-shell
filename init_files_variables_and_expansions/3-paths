@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=":" read -a path_array <<< "$PATH"
+echo $PATH | tr ':' '\n' | grep -c .
