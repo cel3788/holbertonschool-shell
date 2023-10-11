@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -E '^[a-zA-Z_][a-zA-Z_0-9]*=
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:extquote:force_fignore:globasciiranges:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
