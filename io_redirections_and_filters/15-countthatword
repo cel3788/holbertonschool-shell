@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(grep -c "bin" /etc/passwd)
+count=$(awk -F: '/bin/ {count++} END {print count}' /etc/passwd)
