@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(grep "bin" /etc/passwd | wc -l)
+wc=fgrep "bin" /etc/passwd | wc -l
